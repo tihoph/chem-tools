@@ -72,7 +72,7 @@ def calc_internal_similarity(fps: Sequence[DataStructs.ExplicitBitVect]) -> list
 
 def calc_internal_similarity_matrix(
     fps: Sequence[DataStructs.ExplicitBitVect], fill: float = 0.0
-) -> list[float] | Float32Array:
+) -> Float32Array:
     """Calculate the internal similarity of a sequence of fingerprints as matrix.
 
     Args:
