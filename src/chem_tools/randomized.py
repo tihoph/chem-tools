@@ -28,7 +28,7 @@ def _has_hydrogens(mol: Chem.Mol) -> bool:
 def _randomly_renumber_atoms(mol: Chem.Mol) -> Chem.Mol:
     """Randomly renumber heavy atoms in a molecule."""
     # Randomize the atom order
-    atom_order: list[int] = np.random.permutation(mol.GetNumHeavyAtoms()).tolist() # type: ignore[assignment]
+    atom_order: list[int] = np.random.permutation(mol.GetNumHeavyAtoms()).tolist()
 
     return Chem.RenumberAtoms(mol, newOrder=atom_order)
 
