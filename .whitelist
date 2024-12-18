@@ -1,0 +1,7 @@
+Int32Array  # unused variable (src/chem_tools/typing.py:13)
+_.k  # unused attribute (src/chem_tools/external/create_tmap.py:101)
+_.sl_repeats  # unused attribute (src/chem_tools/external/create_tmap.py:102)
+_.mmm_repeats  # unused attribute (src/chem_tools/external/create_tmap.py:103)
+_.node_size  # unused attribute (src/chem_tools/external/create_tmap.py:104)
+_.get_many  # unused method (src/chem_tools/fingerprints/utils.py:58)
+create_tmap  # unused function (src/chem_tools/external/create_tmap.py:241)
