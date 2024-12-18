@@ -22,7 +22,7 @@ jobs:
           pip install mypy --upgrade
           pip install "torch >= 2.0, <2.1" --index-url https://download.pytorch.org/whl/cpu # to not install cuda
           pip install -e ".[dev]"
-      - uses: pre-commit/action@v3
+      - uses: pre-commit/action@v3.0.1
       - name: Lint with ruff
         run: |
           ruff format .
